@@ -2,7 +2,7 @@
 
 In this project, we collect and process data from the large e-commerce website - [shopee.vn](https://shopee.vn/)
 ## Installation
-My device is ubuntu 22.04 and this is my setup
+My device is Ubuntu 22.04 and this is my setup
 
 To create a virtual environment in the `crawl_data` folder:
 
