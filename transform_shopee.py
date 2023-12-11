@@ -12,7 +12,6 @@ if len(sys.argv) < 2:
 # Get the directory suffix from the command line argument
 directory_suffix = sys.argv[1]
 
-
 # Get a list of all items (files and folders) in the directory
 export_folder = 'export'
 directory_path = os.path.join(export_folder, directory_suffix)
@@ -28,14 +27,11 @@ all_items = os.listdir(directory_path)
 folder_names = [item for item in all_items if os.path.isdir(os.path.join(directory_path, item))]
 len_items = 0
 for folder in folder_names:
-
-
+    
     # Specify the directory where your CSV files are located
     csv_files = glob.glob(f"{directory_path}/{folder}/*.csv")
-
     # Initialize an empty DataFrame to store the merged data
     merged_data = pd.DataFrame()
-
     # Loop through each CSV file and append its data to the merged_data DataFrame
     for csv_file in csv_files:
         df = pd.read_csv(csv_file)

@@ -180,20 +180,19 @@ class ShopeeScraper:
         # Extract category URLs
         category_url_elements = self.driver.find_elements(By.CLASS_NAME, "home-category-list__category-grid")
         category_url_ls = [category.get_attribute('href') for category in category_url_elements]
-        # category_url_ls = category_url_ls[6:]
-        # Loop through categories and subcategories
-        # print('44444', category_url_ls)
         
+        # Loop through categories and subcategories
         for index, category_url in enumerate(category_url_ls):
             os.mkdir(f"export/{current_time}/0{index}")
             link_category = self.scrape_category_links(category_url)
+            
             # Write mapping URL to a file when reaching the limit
             string_url = category_url.split("/")[-1]
             need_index = string_url.index("-cat")
             category_name = unquote(string_url[:need_index])
             with open(f"export/{current_time}/mapping_url.txt", "a") as f:
                 f.write(f"{index} --> {category_name}\n")
-            # print('55555', len(link_category))
+            
             len_items = 0
             for num, link in enumerate(link_category):
                 count = 0
@@ -207,7 +206,6 @@ class ShopeeScraper:
                     len_items_page = self.scrape_product_data(link, current_time, index, num, count)
                     len_items += len_items_page
                     count += 1
-                    # print('222222', len_items)
 
                     if len_items_page == 0:
                         break
