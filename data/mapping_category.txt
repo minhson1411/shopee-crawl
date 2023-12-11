@@ -1,0 +1,27 @@
+0 --> Thời trang Nam
+1 --> Thời trang nữ
+2 --> Điện-Thoại-Phụ-Kiện
+3 --> Mẹ-Bé
+4 --> Thiết-Bị-Điện-Tử
+5 --> Nhà-Cửa-Đời-Sống
+6 --> Máy-Tính-Laptop
+7 --> Sắc-Đẹp
+8 --> Máy-Ảnh-Máy-Quay-Phim
+9 --> Sức-Khỏe
+10 --> Đồng-Hồ
+11 --> Giày-Dép-Nữ
+12 --> Giày-Dép-Nam
+13 --> Túi-Ví-Nữ
+14 --> Thiết-Bị-Điện-Gia-Dụng
+15 --> Phụ-Kiện-Trang-Sức-Nữ
+16 --> Thể-Thao-Du-Lịch
+17 --> Bách-Hóa-Online
+18 --> Ô-Tô-Xe-Máy-Xe-Đạp
+19 --> Nhà-Sách-Online
+20 --> Balo-Túi-Ví-Nam
+21 --> Thời-Trang-Trẻ-Em
+22 --> Đồ-Chơi
+23 --> Giặt-Giũ-Chăm-Sóc-Nhà-Cửa
+24 --> Chăm-Sóc-Thú-Cưng
+25 --> Voucher-Dịch-Vụ
+26 --> Dụng-cụ-và-thiết-bị-tiện-ích
