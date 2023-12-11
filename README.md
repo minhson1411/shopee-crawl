@@ -1,4 +1,4 @@
-# Shopee Crawl
+# Shopee Crawl Selenium
 
 In this project, we collect and process data from the large e-commerce website - [shopee.vn](https://shopee.vn/)
 ## Installation
