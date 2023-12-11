@@ -1,0 +1,5 @@
+webdriver_manager==4.0.1
+selenium==4.16.0
+pandas==2.1.4
+numpy==1.26.2
+
